@@ -30,9 +30,9 @@ function verificarChute() {
 
     } else{
         if (chute > numeroSecreto) {
-            exibirTextoNaTela('p','O seu chute foi maior que o número secreto');
+            exibirTextoNaTela('p','Errou! O seu chute foi maior que o número secreto');
         }else {
-            exibirTextoNaTela('p', 'O seu chute foi menor que o número secreto');
+            exibirTextoNaTela('p', 'Errou! O seu chute foi menor que o número secreto');
         }
         tentativas++;
         limparCampo();
